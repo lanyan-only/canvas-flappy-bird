@@ -1,0 +1,35 @@
+body{
+	margin:0;
+	background:url(img/body.png);
+	background-size: cover no-repeat;
+	padding:0;
+}
+#canvas{
+	border:1px solid black;
+	background:url(img/11.jpg); 
+	background-repeat:no-repeat; 
+	background-size:316px 568px; 
+	position: relative;
+	margin-left:40%;
+	margin-top:1%;
+}
+#end{
+	width:320px;
+	height:568px;
+	background: url(img/shouping11.png) no-repeat;
+	background-size: 318px 568px;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 4;
+	margin-left:40%;
+	margin-top:1%;
+	border: 1px solid black;
+}
+button{
+	width:140px;
+	height:53px;
+	margin-top:347px;
+	margin-left: 85px;
+	opacity: 0;
+}
